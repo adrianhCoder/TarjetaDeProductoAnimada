@@ -6,12 +6,17 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  height: 100vh;
+body{
+    background-image: linear-gradient(135deg, #43cbff 10%, #9708cc 100%);
+    
+}
+
+.product-card-main {
+  height: 96vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(135deg, #43cbff 10%, #9708cc 100%);
+  
 }
 .product-card {
   position: relative;
